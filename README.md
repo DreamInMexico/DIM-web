@@ -1,2 +1,3 @@
-# DIM-web
-Dreamin in Mexico - Landing
+# Dreaming in Mexico landing
+
+Dreamin in Mexico Landing
