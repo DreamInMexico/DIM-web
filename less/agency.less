@@ -84,13 +84,13 @@ h1, h2, h3, h4, h5, h6 {
     background-color: @gray-darker;
     border-color: transparent;
     .navbar-brand {
-        color: @theme-primary;
-        .script-font;
+        color: white;
+        font-family: Helvetica, Verdana, Arial, sans-serif;
         &:hover,
         &:focus,
         &:active,
         &.active {
-            color: darken(@theme-primary, 10%);
+            color: darken(#3422CC, 10%);
         }
     }
     .navbar-collapse {
@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-image: url('../img/header-bg.jpg');
+    // background-image: url('../img/header-bg.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -180,8 +180,8 @@ header {
         .intro-lead-in {
             .serif-font;
             font-style: italic;
-            font-size: 22px;
-            line-height: 22px;
+            font-size: 12px;
+            line-height: 12px;
             margin-bottom: 25px;
         }
         .intro-heading {
@@ -202,8 +202,8 @@ header {
             .intro-lead-in {
                 .serif-font;
                 font-style: italic;
-                font-size: 40px;
-                line-height: 40px;
+                font-size: 20px;
+                line-height: 20px;
                 margin-bottom: 25px;
             }
             .intro-heading {
@@ -244,6 +244,9 @@ section {
 
 // Services Section
 
+#services{
+    background-color: white;
+}
 .service-heading {
     margin: 15px 0;
     text-transform: none;
@@ -735,4 +738,21 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: @theme-primary;
+}
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
 }
