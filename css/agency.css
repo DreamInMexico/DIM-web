@@ -778,3 +778,11 @@ video#bgvid {
 #contact-text .contact-heading {
   font-weight: bold;
 }
+#team {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+#team .donate-info span {
+  font-size: .7em;
+  font-weight: 400;
+}
