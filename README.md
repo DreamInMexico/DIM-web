@@ -1,3 +1,3 @@
-# Dreaming in Mexico landing
-
-Dreamin in Mexico Landing
+# hello-conekta-python-django
+Python Django eCommerce using Conekta.
+# cargoConekta
