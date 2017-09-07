@@ -598,4 +598,13 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136; }
 
+.modal-header {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  font-size: 30px; }
+
+.modal-footer {
+  background-color: #f9f9f9; }
+
 /*# sourceMappingURL=agency.css.map */
